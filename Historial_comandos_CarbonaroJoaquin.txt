@@ -1,0 +1,131 @@
+ls
+whoami
+pwd
+echo "hola"
+echo $HOME
+man echo
+man man
+cd repogit/
+ls
+git clone git@github.com:JoaquinCarbonaro/repo_Carbonaro.git
+ls
+git clone https://github.com/JoaquinCarbonaro/repo_Carbonaro.git
+ls
+ls repo_Carbonaro/
+cd repo_Carbonaro/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m "Primer commit"
+git config --global user.name "JoaquinCarbonaro"
+git commit -m "Primer commit"
+git push
+exit
+pwd
+ls
+cd repogit/
+pwd
+ls
+cd ..
+pwd
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh/
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls -l
+cd repogit
+ls -l
+rm -r repo_Carbonaro/
+sudo rm -r repo_Carbonaro/
+ls -l
+pwd
+git clone git@github.com:JoaquinCarbonaro/repo_Carbonaro.git
+ls
+cd repo_Carbonaro/
+echo "hola"
+echo "hola" > hola.txt
+ls
+git status
+git add .
+git status
+git commit -m "primer commit"
+git push
+cat /etc/passwd
+head /etc/passwd
+head -n2 /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+grep bash /etc/passwd > archivo1.txt
+ls -l
+cat archivo1.txt 
+sort archivo1.txt 
+man sort
+cat << EOF > archivo2.txt
+linea 1
+linea 2
+linea 3
+EOF
+
+cat archivo3.txt
+cat archivo2.txt
+bc <<< 5+2
+man bc
+ls -l
+cat hola.txt 
+echo "saludos"
+echo "saludos" >> hola.txt 
+echo "saludos"
+cat hola.txt 
+cat archivo2.txt hola.txt > archivo3.txt
+cat archivo3.txt 
+ls -l
+cpuinfo
+cat proc/cpuinfo
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+cat /proc/cpuinfo | grep model | head -n2
+head -n2 /proc/cpuinfo
+cat /proc/cpuinfo | grep name
+cat /proc/cpuinfo | grep name | head -n1
+exit
+pwd
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO/
+ls -l
+cat comando_dump_net 
+echo "Comando para capturar tráfico de red: tcpdump" > comando_dump_net
+echo "Comando utilizado para la búsqueda: apropos \"dump traffic\"" >> comando_dump_net
+cat comando_dump_net 
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+ls -l
+cat <<EOT >> README.md
+Alumno: <Carbonaro Joaquin>
+División: <311>
+Turno: <Noche>
+EOT
+
+cat README.md 
+cat <<EOT > README.md
+Alumno: Carbonaro Joaquin
+División: 311
+Turno: Noche
+EOT
+
+cat README.md 
+git add README.md
+git commit -m "docs: Actualización del README.md con la información del alumno"
+history -a
