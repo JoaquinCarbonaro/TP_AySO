@@ -1,2 +1,3 @@
-# TP_AySO
-T.P. 1 - Creación repo Git y comandos básicos
+Alumno: Carbonaro Joaquin
+División: 311
+Turno: Noche
